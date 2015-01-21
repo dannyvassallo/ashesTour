@@ -1,0 +1,16 @@
+$navbar-height: 80px;
+$navbar-default-bg: rgba(255,255,255,.95);
+$navbar-default-border: none;
+.navbar-default{
+  border-bottom: 5px solid black !important;
+}
+.navbar-header {
+    float: left !important;
+    padding: 20px !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+.navbar-brand {
+    float:none !important;
+    letter-spacing: 20px !important;
+}
