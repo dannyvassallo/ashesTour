@@ -6,11 +6,16 @@ $navbar-default-border: none;
 }
 .navbar-header {
     float: left !important;
-    padding: 20px !important;
+    padding: 22px !important;
     text-align: center !important;
     width: 100% !important;
+    margin: 0 auto !important;
 }
 .navbar-brand {
     float:none !important;
     letter-spacing: 20px !important;
+    text-align: center !important;
+}
+.navbar-default .navbar-toggle {
+  display: none;
 }
