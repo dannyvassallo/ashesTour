@@ -3,6 +3,7 @@ $navbar-default-bg: rgba(255,255,255,.95);
 $navbar-default-border: none;
 .navbar-default{
   border-bottom: 5px solid black !important;
+  border-radius: 0px !important;
 }
 .navbar-header {
     float: left !important;
