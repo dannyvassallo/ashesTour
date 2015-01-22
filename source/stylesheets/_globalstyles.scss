@@ -1,5 +1,6 @@
 $transwhite : rgba(255,255,255,.95);
 
+
 body{
   background: url('https://s3.amazonaws.com/myfangate.com/ashestour/ashesbackground.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -68,7 +69,7 @@ body{
 
 //CTA & Contest Section Styles//
 
-#call-to-action, #contest{
+#call-to-action, #contest, #join{
   width: 100%;
   border-top: 5px solid black !important;
   border-bottom: 5px solid black !important;
@@ -78,4 +79,61 @@ body{
 
 .prize{
   padding: 20px 0 20px 0;
+}
+
+//TOURDATES//
+
+#dates{
+  h1{
+
+  }
+  ul{
+    padding: 0 10px 0 10px
+  }
+  li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom:1px solid #000;
+    div{
+      height: 40px;
+    }
+    .date{
+      float: left;
+      padding: 6px 12px;
+    }
+    .ticket{
+      float: right;
+    }
+  }
+}
+// jOIN //
+#join{
+  .divider{
+    margin-bottom: 20px;
+  }
+  #twitter-widget-0{
+    width: 100% !important;
+  }
+}
+
+
+//footer//
+#footer{
+  .footercircle{
+    color: white !important;
+     -webkit-text-stroke-width: 4px;
+     -webkit-text-stroke-color: black;
+     font-size: 70px;
+     padding-top: 18px;
+  }
+  .inner{
+    font-size: 40px;
+  }
+  .gram{
+    margin-top: -3px;
+  }
+  .col-lg-8 img{
+    padding: 30px 0 30px 0;
+  }
 }
