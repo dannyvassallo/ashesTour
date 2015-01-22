@@ -1,3 +1,5 @@
+$transwhite : rgba(255,255,255,.95);
+
 body{
   background: url('https://s3.amazonaws.com/myfangate.com/ashestour/ashesbackground.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -19,8 +21,10 @@ body{
 
 .divider{
   width: 100%;
+  max-width: 720px;
   height: 2px;
   background-color: black;
+  margin: 0 auto;
 }
 
 .whiteglowimg{
@@ -32,10 +36,46 @@ body{
   text-shadow: 0px 0px 10px #fff;
 }
 
-.veilphone{
-  margin-top: -20%;
-}
-
 .img-100{
   width: 100%;
+}
+
+.padded-row{
+  padding: 20px 0 20px 0;
+}
+
+//Masthead Styles//
+
+#headliners{
+  margin-top: -30px;
+  img{
+    margin-top: -30px;
+  }
+}
+
+#support{
+  .band{
+    img{
+      margin-top: -50%;
+    }
+  }
+}
+
+//FANGATE PLACEHOLDER//
+.fangate-placeholder{
+  padding-top: 100px;
+}
+
+//CTA & Contest Section Styles//
+
+#call-to-action, #contest{
+  width: 100%;
+  border-top: 5px solid black !important;
+  border-bottom: 5px solid black !important;
+  background-color: $transwhite;
+  margin: 25px 0 25px 0;
+}
+
+.prize{
+  padding: 20px 0 20px 0;
 }
