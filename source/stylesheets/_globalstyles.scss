@@ -15,9 +15,17 @@ body{
     letter-spacing: 20px;
   }
 }
+#overflow-hider{
+  width:360px;
+  padding-top:52px;
+  height:312px;
+  overflow:hidden;
+  margin: 0 auto;
+}
 #contest{
   padding: 50px 0; 
 }
+
 #contesthead{
   letter-spacing: 12px;
   max-width: 800px;
@@ -83,6 +91,10 @@ body{
   border-bottom: 5px solid black !important;
   background-color: $transwhite;
   margin: 25px 0 25px 0;
+}
+
+#contest{
+  background-color: #fff;
 }
 
 .prize{
